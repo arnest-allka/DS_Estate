@@ -1,0 +1,107 @@
+.index-intro,
+.search-properties {
+  padding: 10px;
+  text-align: center;
+}
+
+.index-intro h1 {
+  font-size: 2em;
+  margin-top: 60px;
+  color: white;
+}
+
+.index-intro p {
+  font-size: 1.5em;
+  color: white;
+}
+
+.search-properties {
+  width: 70%;
+  max-width: 850px;
+  margin: 60px auto 175px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-properties h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+.search-properties form {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-properties input,
+.search-properties button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 2px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-properties input[type="text"] {
+  width: 45%;
+}
+
+.search-properties input[type="date"] {
+  width: 30%;
+}
+
+.search-properties input[type="number"] {
+  width: 20%;
+}
+
+.search-properties button {
+  width: 20%;
+  background-color: #3a4664;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-properties button:hover {
+  background-color: #0056b3;
+}
+
+.search-properties input[type="text"]:focus,
+.search-properties input[type="date"]:focus,
+.search-properties input[type="number"]:focus,
+.search-properties input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-properties {
+    width: 70%;
+  }
+
+  .search-properties form {
+    flex-direction: column;
+  }
+
+  .search-properties input[type="text"],
+  .search-properties input[type="date"],
+  .search-properties input[type="number"] {
+    width: 92%;
+  }
+
+  .search-properties button {
+    width: 100%;
+  }
+}

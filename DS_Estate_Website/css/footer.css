@@ -1,0 +1,35 @@
+footer {
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  color: #ddd;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-info,
+.map {
+  padding: 10px;
+}
+
+.contact-info a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}

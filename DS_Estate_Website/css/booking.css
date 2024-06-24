@@ -1,0 +1,182 @@
+.booking {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.booking h1 {
+  text-align: center;
+  color: #333;
+}
+
+.booking-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.booking-form {
+  flex: 0 0 65%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.booking-form {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.booking-form h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.booking-form label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.booking-form input[type="date"],
+.booking-form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.booking-form button {
+  background-color: #3a4664;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #0056b3;
+}
+
+.booking-form input[type="date"]:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.booking-content .listing:hover {
+  transform: translateY(0);
+}
+
+.reservation-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  flex: 0 0 17%;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.form-group input {
+  flex: 0 0 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation-form button {
+  width: 100%;
+}
+
+.total-amount {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.total-amount h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.total-amount p {
+  font-size: 24px;
+  color: #3a4664;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .booking {
+    width: 70%;
+  }
+
+  .listing {
+    display: none;
+  }
+
+  .booking-content {
+    flex-direction: column;
+  }
+
+  .booking-form {
+    flex: 0 0 100%;
+    padding: 35px;
+  }
+
+  .booking-form label,
+  .booking-form input,
+  .booking-form button {
+    display: block;
+  }
+
+  .booking-form label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .booking-form input[type="date"] {
+    width: 90%;
+  }
+
+  .booking-form button {
+    width: 100%;
+  }
+
+  .reservation-form {
+    width: 100%;
+  }
+
+  .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-group label {
+    flex: 0 0 auto;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .form-group input {
+    flex: 0 0 100%;
+  }
+}
