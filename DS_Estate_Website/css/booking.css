@@ -129,16 +129,15 @@
     width: 70%;
   }
 
-  .listing {
-    display: none;
+  .booking-content {
+    display: block;
   }
 
-  .booking-content {
-    flex-direction: column;
+  .booking-content .listing {
+    width: 100%;
   }
 
   .booking-form {
-    flex: 0 0 100%;
     padding: 35px;
   }
 
@@ -154,29 +153,23 @@
   }
 
   .booking-form input[type="date"] {
-    width: 90%;
+    width: 100%;
   }
 
   .booking-form button {
     width: 100%;
   }
 
-  .reservation-form {
-    width: 100%;
-  }
-
   .form-group {
-    flex-direction: column;
-    align-items: flex-start;
+    display: block;
   }
 
   .form-group label {
-    flex: 0 0 auto;
     padding: 5px;
     text-align: left;
   }
 
   .form-group input {
-    flex: 0 0 100%;
+    width: 100%;
   }
 }
