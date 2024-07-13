@@ -78,28 +78,50 @@ To set up the project locally, follow these steps:
 
 ## Folder Structure
 
-WEB_ALLKA_ARNEST_e21004/
-│
+WEB_ALLKA_ARNEST_e21004
 ├── DS_Estate_DB/
 │ └── ds_estate.sql
 ├── DS_Estate_Website/
 │ ├── css/
+│ │ ├── booking.css
+│ │ ├── footer.css
+│ │ ├── form.css
+│ │ ├── header.css
+│ │ ├── home.css
+│ │ ├── listing.css
+│ │ └── profile.css
 │ ├── img/
+│ │ ├── IMG-6677f5d96c99a4.14060222.jpg
+│ │ ├── IMG-6677f6cbbc7ea0.62206566.jpg
+│ │ ├── IMG-6677f8d50a08c3.57701540.jpg
+│ │ ├── IMG-6677f99193cc38.30249490.jpg
+│ │ └── house1.jpg
 │ ├── includes/
+│ │ ├── booking.inc.php
+│ │ ├── create-listing.inc.php
+│ │ ├── dbh.inc.php
+│ │ ├── functions.inc.php
+│ │ ├── login.inc.php
+│ │ ├── logout.inc.php
+│ │ ├── profile.inc.php
+│ │ ├── reservation.inc.php
+│ │ ├── search.inc.php
+│ │ └── signup.inc.php
 │ ├── js/
+│ │ └── pagination.js
 │ ├── booking.php
 │ ├── create-listing.php
 │ ├── feed.php
 │ ├── footer.php
-│ └── header.php
+│ ├── header.php
 │ ├── index.php
 │ ├── login.php
 │ ├── profile.php
 │ ├── reservation.php
 │ ├── reservations.php
 │ └── signup.php
-├── documentation.docx
-└── README.md
+├── README.md
+└── documentation.docx
 
 ## Future Improvements
 
