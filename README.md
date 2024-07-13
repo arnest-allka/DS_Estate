@@ -42,7 +42,7 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/arnest-allka/WEB_ALLKA_ARNEST_e21004.git
-   cd ds-estate
+   cd WEB_ALLKA_ARNEST_e21004
    ```
 
 2. Start a local XAMPP server:
@@ -77,3 +77,46 @@ To set up the project locally, follow these steps:
 - Fill in the property details and submit to create a new listing.
 
 ## Folder Structure
+
+WEB_ALLKA_ARNEST_e21004/
+│
+├── DS_Estate_DB/
+│ └── ds_estate.sql
+├── DS_Estate_Website/
+│ ├── css/
+│ ├── img/
+│ ├── includes/
+│ ├── js/
+│ ├── booking.php
+│ ├── create-listing.php
+│ ├── feed.php
+│ ├── footer.php
+│ └── header.php
+│ ├── index.php
+│ ├── login.php
+│ ├── profile.php
+│ ├── reservation.php
+│ ├── reservations.php
+│ └── signup.php
+├── documentation.docx
+└── README.md
+
+## Future Improvements
+
+- **Enhanced Responsive Design**: Further optimize for different devices.
+- **Search and Filter**: Implement filters for properties.
+- **Review System**: Allow users to leave reviews and ratings for properties.
+- **Payment Integration**: Integrate online payment systems like PayPal or Stripe.
+- **Security Enhancements**: Implement HTTPS and stronger encryption methods.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the project's coding standards and passes all tests.
+
+## License
+
+No license for this project.
+
+## Contact
+
+For any inquiries or issues, please contact [Arnest Allka] at [arisallkas@gmail.com].
