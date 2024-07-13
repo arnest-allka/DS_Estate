@@ -1,3 +1,6 @@
+/* Css styling for the listing component of the website */
+/* Here i style the way the listing should appear on the website */
+
 .listing-content {
   width: 95%;
   max-width: 1200px;
@@ -78,6 +81,7 @@
   background-color: #0056b3;
 }
 
+/* Styling the pagination component of the website */
 .pagination {
   display: flex;
   justify-content: center;
@@ -106,6 +110,7 @@
   color: #ddd;
 }
 
+/* Media query for the listing component to make it responsive */
 @media (max-width: 768px) {
   .listing-content {
     padding: 10px;

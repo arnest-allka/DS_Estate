@@ -1,3 +1,4 @@
+/* style the main body component of the website and put an bacground image to appear in the background of the website. */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +7,9 @@ body {
   background-size: cover;
 }
 
+/* Css styling for the header component */
+
+/* style the navbar component of the website */
 .navbar {
   background-color: #3a4664;
   color: #fff;
@@ -13,23 +17,27 @@ body {
   overflow: hidden;
 }
 
+/* style the navbar container */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* style the navbar logo */
 .nav-logo {
   font-size: 1.5em;
   color: #fff;
   text-decoration: none;
 }
 
+/* style the navbar menu */
 .nav-menu {
   display: flex;
   gap: 10px;
 }
 
+/* style the navbar items */
 .nav-item {
   float: left;
   display: block;
@@ -40,22 +48,26 @@ body {
   font-size: 17px;
 }
 
+/* style the navbar items when hovered */
 .nav-item:hover {
   transform: scale(1.1);
   transition: 0.3s;
   color: #eaa0a2;
 }
 
+/* style the navbar items when active */
 .nav-item.active {
   color: #eaa0a2;
 }
 
+/* style the hamburger icon */
 .hamburger-icon {
   display: none;
   margin: auto 0;
   cursor: pointer;
 }
 
+/* style the hamburger icon div */
 .hamburger-icon div {
   width: 25px;
   height: 3px;
@@ -64,20 +76,24 @@ body {
   transition: 0.4s;
 }
 
+/* rotate the first bar of the hamburger icon */
 .open .bar1 {
   -webkit-transform: rotate(-45deg) translate(-6px, 6px);
   transform: rotate(-45deg) translate(-6px, 6px);
 }
 
+/* hide the second bar of the hamburger icon */
 .open .bar2 {
   opacity: 0;
 }
 
+/* rotate the third bar of the hamburger icon */
 .open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
 }
 
+/* style the mobile menu */
 .open .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -85,6 +101,7 @@ body {
   justify-content: flex-start;
 }
 
+/* style the mobile menu items */
 .open .mobile-menu .nav-item {
   display: block;
   color: #fff;
@@ -112,6 +129,7 @@ body {
   margin-bottom: 10px;
 }
 
+/* when in mobile view, hide the navbar menu and display the hamburger icon */
 @media (max-width: 768px) {
   .nav-menu {
     display: none;

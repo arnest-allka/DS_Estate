@@ -1,3 +1,5 @@
+/* Css styling for the profile page of the website*/
+
 .profile {
   display: flex;
   gap: 20px;
@@ -61,6 +63,7 @@
   height: 150px;
 }
 
+/* Media queries for the profile page to make it responsive */
 @media screen and (max-width: 768px) {
   .profile {
     width: 90%;

@@ -1,10 +1,13 @@
 /*Css styling for the home page*/
 
+/* we have two components into the home page, the index-intro and th search-properties */
 .index-intro,
 .search-properties {
   padding: 10px;
   text-align: center;
 }
+
+/* The index-intro is the first component of the home page, it contains the title and the message that welcomes the user if signed in. */
 
 .index-intro h1 {
   font-size: 2em;
@@ -16,6 +19,8 @@
   font-size: 1.5em;
   color: white;
 }
+
+/* the search-properties component is the second component of the home page, it contains the search form that allows the user to search for properties. And i style it so appears in a box and the inputs are ia a row */
 
 .search-properties {
   width: 70%;
@@ -82,12 +87,15 @@
   outline: none;
 }
 
+/* Error message dispays the message in red color. This is used everywhere in the website to display error messages. */
 .error-message {
   color: red;
   text-align: center;
   margin: 10px;
 }
 
+/* Media query for the search-properties component to make it responsive */
+/* Here i make the search-properties component responsive by changing the width of the component and the inputs are shown in a column when the screen size is less than 768px. */
 @media screen and (max-width: 768px) {
   .search-properties {
     width: 70%;

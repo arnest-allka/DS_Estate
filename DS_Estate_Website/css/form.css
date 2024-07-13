@@ -1,3 +1,6 @@
+/* Css styling for forms in the website */
+
+/* Css styling for the form component */
 .form {
   width: 100%;
   max-width: 600px;
@@ -52,11 +55,13 @@
   outline: none;
 }
 
+/* Success message that displays message in green color, used for every success message in the website */
 .success-message {
   color: green;
   text-align: center;
 }
 
+/* Media query for the form component to make it responsive */
 @media screen and (max-width: 768px) {
   .form {
     width: 80%;
