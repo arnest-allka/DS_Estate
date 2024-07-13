@@ -78,6 +78,7 @@ To set up the project locally, follow these steps:
 
 ## Folder Structure
 
+```bash
 WEB_ALLKA_ARNEST_e21004
 ├── DS_Estate_DB/
 │ └── ds_estate.sql
@@ -122,6 +123,7 @@ WEB_ALLKA_ARNEST_e21004
 │ └── signup.php
 ├── README.md
 └── documentation.docx
+```
 
 ## Future Improvements
 
