@@ -1,6 +1,6 @@
-# WEB_ALLKA_ARNEST_e21004
-
 # DS Estate Web Application
+
+DS Estate is a web application for short-term property rentals, offering features like user authentication, property viewing, booking, and listing creation. Built with HTML5, CSS3, JavaScript, and PHP, it utilizes a MySQL database and supports responsive design for desktop and mobile. Users can browse available properties, book them, and create their own listings. The application is designed for local setup using XAMPP and includes functionalities for future enhancements such as advanced search, reviews, and payment integration.
 
 ## Table of Contents
 
