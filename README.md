@@ -41,8 +41,8 @@ To set up the project locally, follow these steps:
 1. Clone the repository to htdocs of the xampp directory:
 
    ```bash
-   git clone https://github.com/arnest-allka/WEB_ALLKA_ARNEST_e21004.git
-   cd WEB_ALLKA_ARNEST_e21004
+   git clone https://github.com/arnest-allka/DS_Estate.git
+   cd DS_Estate
    ```
 
 2. Start a local XAMPP server:
